@@ -15,6 +15,8 @@ const inter = Inter({subsets: ["latin"]});
 
 import LangSwitch from "@/components/lang-switch";
 
+import { Analytics } from '@vercel/analytics/react';
+
 export const metadata = {
   title: "Zoltan | Personal Portfolio",
   description: "Zoltan is a full-stack developer with 8+ years of experience.",
@@ -60,6 +62,7 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header/>
           {children}
+          <Analytics />
         </NextIntlClientProvider>
         <Footer/>
 
