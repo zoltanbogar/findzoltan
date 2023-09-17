@@ -1,0 +1,49 @@
+{
+  "Index": {
+    "My Experience": "My Experience",
+    "Contact me here": "Contact me here",
+    "Home": "Home",
+    "About": "About"
+  },
+  "About": {
+    "title": "About Me",
+    "paragraph": "As a <medium>Full-stack Developer</medium>, my expertise lies in creating seamless and intuitive user experiences. I specialize in using cutting-edge technologies to produce high-quality web applications. Specifically, I have vast knowledge of <medium>Laravel, Next.js and Nest.js</medium>, which allow me to build complex and dynamic applications with ease."
+  },
+  "Toast": {
+    "success": "Email sent successfully!"
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "paragraph": "Please contact me directly at <mailto>zoltan.r.bogar@gmail.com</mailto> or through this form.",
+    "form": {
+      "placeholder": {
+        "email": "Your email",
+        "message": "Your message"
+      },
+      "submit": "Submit"
+    }
+  },
+  "Skills": {
+    "title": "My Skills"
+  },
+  "Projects": {
+    "title": "My projects"
+  },
+  "Intro": {
+    "contact": "Contact me here",
+    "download": "Download CV",
+    "intro": "<bold>Hey, I'm Zoltan.</bold> I'm a <bold>full-stack developer</bold> with <bold>8+ years</bold> of experience. I build things for the web. My focus is <underline>Laravel, Nest.js and Next.js</underline>."
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "about": "<semi>About this website:</semi> built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS Framer Motion, React Email & Resend, Vercel hosting."
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "Index": {
+    "My Experience": "Tapasztalataim",
+    "Contact me here": "Üzenj nekem"
+  },
+  "About": {
+    "title": "Rólam",
+    "paragraph": "<medium>Full-stack Fejlesztőként</medium>, a szakértelmem a zökkenőmentes és intuitív felhasználói élmény megteremtésében rejlik. Szakterületem a legmodernebb technológiák felhasználása, kiváló minőségű webalkalmazások előállításához. Mély ismeretekkel rendelkezem <medium>Laravel, Next.js and Nest.js</medium> technológiákban, ami lehetővé teszi számomra az összetett és dinamikus alkalmazások építését."
+  },
+  "Toast": {
+    "success": "Email sikeresen kiküldve!"
+  },
+  "Contact": {
+    "title": "Üzenj nekem",
+    "paragraph": "Küldj üzenetet a <mailto>zoltan.r.bogar@gmail.com</mailto> címre, vagy az alábbi formon keresztül.",
+    "form": {
+      "placeholder": {
+        "email": "Email cím",
+        "message": "Üzenet"
+      },
+      "submit": "Elküld"
+    }
+  },
+  "Skills": {
+    "title": "Erősségeim"
+  },
+  "Projects": {
+    "title": "Munkáim"
+  },
+  "Intro": {
+    "contact": "Üzenj nekem",
+    "download": "Önéletrajz",
+    "intro": "<bold>A nevem Zoltán</bold> és <bold>full-stack fejlesztő</bold> vagyok, <bold>8+ év</bold> tapasztalattal. Webalkalmazásokat készítek. Erősségeim a <underline>Laravel, Nest.js és Next.js</underline>."
+  },
+  "Footer": {
+    "rights": "Minden jog fenntartva.",
+    "about": "<semi>Felhasznált technológiák:</semi> React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS Framer Motion, React Email & Resend, Vercel hosting."
+  },
+  "Header": {
+    "home": "Intro",
+    "about": "Rólam",
+    "projects": "Munka",
+    "skills": "Készség",
+    "experience": "Tapasztalat",
+    "contact": "Kapcsolat"
+  }
+}

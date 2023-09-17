@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1170px) {
+    .vertical-timeline-element:nth-of-type(2n+1) .vertical-timeline-element-content .vertical-timeline-element-date {
+        padding-left: 1rem;
+    }
+
+    .vertical-timeline-element:nth-of-type(2n) .vertical-timeline-element-content .vertical-timeline-element-date {
+        padding-right: 1rem;
+    }
+}
