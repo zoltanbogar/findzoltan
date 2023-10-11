@@ -7,6 +7,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import {useTranslations} from "next-intl";
+import {event} from "nextjs-google-analytics";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
@@ -73,6 +74,10 @@ export default function Header() {
                 )}
                 href={link.hash}
                 onClick={() => {
+                  event("click_action", {
+                    category: "Click",
+                    label: link.name,
+                  });
                   setActiveSection(link.name);
                   setTimeOfLastClick(Date.now());
                 }}

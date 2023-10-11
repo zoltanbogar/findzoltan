@@ -8,6 +8,7 @@ import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 import {useTranslations} from 'next-intl';
+import {event, GoogleAnalytics} from "nextjs-google-analytics";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -51,6 +52,11 @@ export default function Contact() {
           }
 
           toast.success(tToast('success'));
+
+          event("email_action", {
+            category: "Email",
+            label: 'Successfully sent',
+          });
         }}
       >
         <input
